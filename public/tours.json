@@ -1,0 +1,51 @@
+[
+    {
+        "id": "smr01",
+        "name": "Dubai 6 Nights",
+        "initial": "Dubai Parks – Bollywood, Motiongate, Legoland And Legoland Water Park, Miracle Garden, Global Village Ain Dubai – Non Peak Hours.",
+        "description": "Economy Class Return Airfare, Return Dubai Airport Transfers (Dubai Airport Only), Inter Hotel Transfers, All Sightseeing & Transfers On Pvt Basis.",
+        "image": "https://iili.io/55SzQV.jpg",
+        "price": "125000"
+    },
+    {
+        "id": "smr02",
+        "name": "Scenic Switzerland",
+        "initial": "Visit to Mt. Titlis, Geneva, Bern & Montreux, Nestle Cailler Chocolate Factory.",
+        "description": "Economy Class Return Airfare, Return Switzerland Airport Transfers (Switzerland Airport Only), Inter Hotel Transfers, All Sightseeing & Transfers On Pvt Basis.",
+        "image": "https://iili.io/55Sej4.jpg",
+        "price": "225000"
+    },
+    {
+        "id": "smr03",
+        "name": "European Dreams",
+        "initial": "Visit to heart of Europe Paris & Swiss on this Itinerary, Cruise along the Seine to enjoy Parisian Beauty & also visit the Top level of Eiffel Tower for wonderful views of Paris !",
+        "description": "Economy Class Return Airfare, Return Paris Airport Transfers (Paris Airport Only), Inter Hotel Transfers, All Sightseeing & Transfers On Pvt Basis.",
+        "image": "https://iili.io/55SSGS.jpg",
+        "price": "325000"
+    },
+    {
+        "id": "smr04",
+        "name": "American Experience East & West",
+        "initial": "Visit the Edge New York, Circle around Statue of Liberty by ferry, Helicopter Ride of the city of Las Vegas, Full day trip to Universal Studios, Experience the Bay Cruise.",
+        "description": "Economy Class Return Airfare, Return JFK Airport Transfers (JFK Airport Only), Inter Hotel Transfers, All Sightseeing & Transfers On Pvt Basis.",
+        "image": "https://iili.io/55S68u.jpg",
+        "price": "300000"
+    },
+    {
+        "id": "smr05",
+        "name": "Untamed Kenya",
+        "initial": "Game drives in the Masai Mara, Experience the Amazing culture of Kenya,Spot the great Hippos at Lake Naivasha.",
+        "description": "Economy Class Return Airfare, Return Kenya Airport Transfers (Kenya Airport Only), Inter Hotel Transfers, All Sightseeing & Transfers On Pvt Basis. ",
+        "image": "https://iili.io/55SQZQ.jpg",
+        "price": "120000"
+    },
+    {
+        "id": "smr06",
+        "name": "Majestic Kashmir",
+        "initial": "Visit to Shalimar Bagh, Hazratbal Mosque, Aru Valley, Bat Factory.",
+        "description": "Economy Class Return Airfare, Return Srinagar Airport Transfers (Sheikh ul Alam Airport Only), Inter Hotel Transfers, All Sightseeing & Transfers On Pvt Basis.",
+        "image": "https://iili.io/55U98g.jpg",
+        "price": "85000"
+    }
+    
+]
