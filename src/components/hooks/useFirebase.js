@@ -8,15 +8,13 @@ const [user, setUser]= useState({});
 const [isLoading, setIsLoading] = useState(true);
 const [cart, setCart] =useState([]);
 const auth = getAuth();
+const googleProvider = new GoogleAuthProvider();
 
     const signInUsingGoogle=()=> {
         setIsLoading(true);
-        const googleProvider = new GoogleAuthProvider();
-    signInWithPopup(auth, googleProvider)
-      .then((result) => {
-    setUser(result);
-      })
-      .finally(()=>setIsLoading(false));
+        
+    return signInWithPopup(auth, googleProvider)
+    
     }
 
     useEffect(()=>{
@@ -48,7 +46,9 @@ const auth = getAuth();
         logOut,
         isLoading,
         cart,
-        handleBooking 
+        handleBooking,
+        setUser,
+        setIsLoading
     }
 }
 

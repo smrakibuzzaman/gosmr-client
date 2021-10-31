@@ -13,6 +13,7 @@ import AuthProvider from './context/AuthProvider';
 import initializeAuthentication from './firebase/firebase.auth';
 import Header from './components/Header/Header';
 import Blog from './components/Blog/Blog';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 initializeAuthentication();
 
 
@@ -50,13 +51,13 @@ function App() {
   <TourPackages></TourPackages>
   </Route>
   
-  <Route path="/myOrders">
+  <PrivateRoute path="/myOrders">
   <MyOrders></MyOrders>
-  </Route>
+  </PrivateRoute>
   
-  <Route path="/manageAllOrders">
+  <PrivateRoute path="/manageAllOrders">
   <ManageAllOrders></ManageAllOrders>
-  </Route>
+  </PrivateRoute>
   
   <Route path="/blog">
 <Blog></Blog>
