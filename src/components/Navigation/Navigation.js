@@ -20,8 +20,8 @@ const Navigation = () => {
               <Nav.Link as={NavLink} to="/aboutUs">About Us</Nav.Link>
               <Nav.Link as={NavLink} to="/tourPackages">Tour Packages</Nav.Link>
               <Nav.Link as={NavLink} to="/myOrders">My Orders</Nav.Link>
-              <Nav.Link as={NavLink} to="/manageAllOrders">Manage All Orders</Nav.Link>
               <Nav.Link as={NavLink} to="/blog">Blog</Nav.Link>
+              <Nav.Link as={NavLink} to="/addPackages">Add Packages</Nav.Link>
               
              {user.email ? <Button onClick={logOut} variant="light">Logout</Button> : 
              <Nav.Link as={NavLink} to="/login">Login</Nav.Link>}

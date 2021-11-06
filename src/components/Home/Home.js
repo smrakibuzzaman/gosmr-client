@@ -13,6 +13,7 @@ const Home = () => {
 <br />
 GoSMR is the skilled and trustworthy organization for Visa  Process ,  Package Tours , Air Tickets , Hotel Booking  in various countries around the world.A group of talented tourism graduate in  GoSMR have made a team to engaged and  better service and always ready to serve .
                 </h3>
+                
                 <TourPackages/>
             </div>
            

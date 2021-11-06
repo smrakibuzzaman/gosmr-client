@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import useAuth from '../hooks/useAuth';
 import { useHistory, useLocation } from 'react-router';
 
@@ -17,6 +17,7 @@ const Login = () => {
            signInUsingGoogle()
            .then((result) => {
             setUser(result.user);
+            sessionStorage.setItem('email', result.user.email);
             history.push(redirect)
               })
               .finally(()=>setIsLoading(false));}} className="btn btn-primary">Google Sign in</button>

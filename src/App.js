@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import TourPackages from './components/TourPackages/TourPackages';
 import MyOrders from './components/MyOrders/MyOrders';
-import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
 import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
@@ -14,6 +13,8 @@ import initializeAuthentication from './firebase/firebase.auth';
 import Header from './components/Header/Header';
 import Blog from './components/Blog/Blog';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import ConfirmOrder from './components/ConfirmOrder/ConfirmOrder';
+import AddPackages from './components/AddPackages/AddPackages';
 initializeAuthentication();
 
 
@@ -54,10 +55,15 @@ function App() {
   <PrivateRoute path="/myOrders">
   <MyOrders></MyOrders>
   </PrivateRoute>
-  
-  <PrivateRoute path="/manageAllOrders">
-  <ManageAllOrders></ManageAllOrders>
+
+  <PrivateRoute path="/confirmOrder/:tourId">
+ <ConfirmOrder></ConfirmOrder>
   </PrivateRoute>
+
+  <PrivateRoute path="/addPackages">
+ <AddPackages></AddPackages>
+  </PrivateRoute>
+  
   
   <Route path="/blog">
 <Blog></Blog>

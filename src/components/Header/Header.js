@@ -8,9 +8,9 @@ const Header = () => {
     return (
         <div>
             <Navigation/>
-            <div className="d-flex text-center"  style={{background: `url(${banner})`, backgroundRepeat: 'no-repeat',  backgroundSize: 'cover', backgroundPosition: 'center', height: '40vh'}}
+            <div className="d-flex text-center"  style={{background: `url(${banner})`, backgroundRepeat: 'no-repeat',  backgroundSize: 'cover', backgroundPosition: 'center', height: '40vh', width: '100%'}}
  >
-           <div className="m-5">
+           <div className="m-2">
 
       <h1 className="title text-warning" > 
             Refresh Yourself

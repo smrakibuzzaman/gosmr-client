@@ -1,10 +1,14 @@
 import React from 'react';
 import { Card} from 'react-bootstrap';
-import useAuth from '../hooks/useAuth';
+import { Link } from 'react-router-dom';
+
+
 
 const TourPackage = (props) => {
-    const { name, initial, image, description, price} = props.tour;
-    const {cart, handleBooking}= useAuth();
+    const {_id, name, initial, image, description, price} = props.tour;
+  
+    
+
   
     return (
         <div className="col-md-6 col-12 g-3 rounded mb-2">
@@ -33,7 +37,8 @@ const TourPackage = (props) => {
   </Card.Body>
   
   <Card.Body>
-    <Card.Link to="/"><button onClick={()=>handleBooking(props.tour)} type="button" class="btn btn-primary">Book Now</button></Card.Link>
+    <Link to={`confirmOrder/${_id}`}> <button  type="button" class="btn btn-primary">Book Now</button> </Link>
+   
     
   </Card.Body>
 </Card>

@@ -6,7 +6,7 @@ const useFirebase = ()=>{
   
 const [user, setUser]= useState({});
 const [isLoading, setIsLoading] = useState(true);
-const [cart, setCart] =useState([]);
+// const [cart, setCart] =useState([]);
 const auth = getAuth();
 const googleProvider = new GoogleAuthProvider();
 
@@ -35,18 +35,14 @@ const googleProvider = new GoogleAuthProvider();
         .finally(()=>setIsLoading(false));
     }
 
-    const handleBooking = tour=>{
-      const selectTours = [...cart, tour];
-      setCart(selectTours);
-    }
 
     return{
         user,
         signInUsingGoogle,
         logOut,
         isLoading,
-        cart,
-        handleBooking,
+       
+       
         setUser,
         setIsLoading
     }
